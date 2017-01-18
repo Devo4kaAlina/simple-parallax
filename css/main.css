@@ -1,0 +1,130 @@
+/*START RESET*/
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+img {
+  box-sizing: content-box; }
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+* {
+  outline: 0 none; }
+
+body {
+  line-height: 1;
+  background: #fff;
+  font-family: ProximaNova;
+  color: #2e2e2e; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/*END RESET*/
+main {
+  height: 1000px; }
+
+.cont1 {
+  background: url(../images/dawn-nature-sunset-trees.jpg) 50% 150% no-repeat;
+  /* Set a specific height */
+  height: 50%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed; }
+
+.cont2 {
+  height: 200px;
+  line-height: 200px;
+  background-color: #e2dada;
+  font-size: 20px;
+  text-align: center; }
+
+.cont3 {
+  background-image: url(../images/landscape-nature-man-person.jpg);
+  /* Set a specific height */
+  min-height: 900px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.cont4 {
+  height: 200px;
+  background-color: #f4bebe;
+  font-size: 26px;
+  text-align: center;
+  font-style: italic;
+  font-weight: 900;
+  display: flex; }
+  .cont4 p {
+    margin: auto;
+    display: block;
+    line-height: 1.5; }
+
+.cont5 {
+  background: url(../images/pexels-photo-39811.jpeg) 50% 70% no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+  position: relative; }
+  .cont5 .inner {
+    position: absolute;
+    top: 100px;
+    left: 30px;
+    width: 30%;
+    background: rgba(235, 235, 235, 0.8);
+    padding: 20px;
+    font-size: 20px;
+    color: #000; }
+  .cont5 .inner1 {
+    position: absolute;
+    bottom: 20%;
+    right: 20%;
+    width: 30%;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    font-size: 20px;
+    color: #fff; }
+
+/* Medium Devices, Desktops */
+/* Small Devices, Tablets */
+/* Custom, iPhone Retina */
+
+/*# sourceMappingURL=main.css.map */
